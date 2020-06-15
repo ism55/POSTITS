@@ -1,0 +1,33 @@
+<h3 class="popupTitle">Agregar nota</h3>
+
+<!-- The preview: -->
+<div id="previewNote" class="note yellow" style="left:0;top:65px;z-index:1">
+	<div class="body"></div>
+	<div class="author"></div>
+	<span class="data"></span>
+</div>
+
+<div id="noteData"> <!-- Holds the form -->
+<form action="" method="post" class="note-form">
+
+<label for="note-body">Contenido</label>
+<textarea name="note-body" id="note-body" class="pr-body" cols="30" rows="6"></textarea>
+
+<label for="note-name">Autor</label>
+<input type="text" name="note-name" id="note-name" class="pr-author" value="" />
+
+<label>Color</label> <!-- Clicking one of the divs changes the color of the preview -->
+<div class="color yellow"></div>
+<div class="color blue"></div>
+<div class="color green"></div>
+<div class="color pink"></div>
+<div class="color orange"></div>
+<div class="color purple"></div>
+<div class="color red"></div>
+
+
+<!-- The green submit button: -->
+<a id="note-submit" href="" class="green-button">Enviar</a>
+
+</form>
+</div>
